@@ -1,0 +1,21 @@
+{
+  "name": "graphql-yoga-lambda-sample",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline",
+    "test": "serverless-bundle test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.77",
+    "@types/jest": "^26.0.23",
+    "aws-sdk": "^2.930.0",
+    "serverless": "^2.46.0",
+    "serverless-bundle": "^4.3.1",
+    "serverless-offline": "^7.0.0"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
